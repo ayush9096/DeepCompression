@@ -11,4 +11,3 @@ This implementation implements three core methods in the paper - Deep Compressio
 - Can Prune Convolutional Layers by 3x and Fully Connected Layers by 10x
 - Train Connectivity --> Prune Connections --> Train Weights
 - Can Prune RNN and LSTM, without hurting the score
-
