@@ -11,3 +11,14 @@ This implementation implements three core methods in the paper - Deep Compressio
 - Can Prune Convolutional Layers by 3x and Fully Connected Layers by 10x
 - Train Connectivity --> Prune Connections --> Train Weights
 - Can Prune RNN and LSTM, without hurting the score
+- Weight Sharing : Clustering of Weights --> Generate Code Book --> Quantize the Weight with Code Book --> Retrain Code Book
+- Huffman Coding :
+    Frequent Weights : Use less bits to represent
+    In-Frequent Weights : Uses more bits to represent
+    No loss in accuracy after compression
+    If Fits in SRAM Cache (energy consumption will be low)
+
+# Conclusion
+- Complex DNNs can be put in mobile applications
+- Memory BandWidth will be reduced
+- Faster Prediction
